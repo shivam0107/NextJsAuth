@@ -33,7 +33,7 @@ const VerifyEmailPage = () => {
 
         // const {query} = router;
         // const urlTokenTow = query.token;
-    })
+    },[])
 
     useEffect(() => {
         setError(false)
