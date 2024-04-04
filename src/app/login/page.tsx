@@ -6,7 +6,7 @@ import {toast} from 'react-hot-toast'
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-const loginPage = () => {
+const LoginPage = () => {
 
     const router = useRouter();
 
@@ -74,4 +74,4 @@ const loginPage = () => {
   )
 }
 
-export default loginPage
+export default LoginPage
