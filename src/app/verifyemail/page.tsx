@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-const verifyEmailPage = () => {
+const VerifyEmailPage = () => {
 
     // const router = useRouter();
 
@@ -67,4 +67,4 @@ const verifyEmailPage = () => {
   )
 }
 
-export default verifyEmailPage
+export default VerifyEmailPage
